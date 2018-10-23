@@ -26,13 +26,13 @@ const driversCopy = drivers.slice()
   
     function prependDriver(name) {
 const driversCopy = drivers.slice()
-  driversCopy.shift(name)
+  driversCopy.unshift(name)
   return driversCopy
   }
   
     function removeLastDriver() {
 const driversCopy = drivers.slice()
-  driversCopy.unshift(name)
+  driversCopy.pop(name)
   return driversCopy
   }
   

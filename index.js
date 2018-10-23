@@ -30,7 +30,7 @@ const driversCopy = drivers.slice()
   return driversCopy
   }
   
-    function appendDriver(name) {
+    function removeLastDriver(name) {
 const driversCopy = drivers.slice()
   driversCopy.push(name)
   return driversCopy

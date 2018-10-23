@@ -21,6 +21,7 @@ function destructivelyRemoveFirstDriver() {
   function appendDriver(name) {
 const driversCopy = drivers.slice()
   driversCopy.push(name)
+  return driversCopy
     
   }
   
